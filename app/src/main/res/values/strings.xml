@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dynamic Animation Sample</string>
+
+    <string name="stiffness">Stiffness</string>
+    <string name="stiffness_high">High</string>
+    <string name="stiffness_medium">Medium</string>
+    <string name="stiffness_low">Low</string>
+    <string name="stiffness_very_low">Very low</string>
+
+    <string name="damping">Damping ratio</string>
+    <string name="damping_ratio_high_bouncy">High bouncy</string>
+    <string name="damping_ratio_medium_bouncy">Medium bouncy</string>
+    <string name="damping_ratio_low_bouncy">Low bouncy</string>
+    <string name="damping_ratio_no_bouncy">No bouncy</string>
+
+</resources>

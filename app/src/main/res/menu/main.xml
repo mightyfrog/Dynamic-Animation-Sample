@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_stiffness"
+        android:title="@string/stiffness"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/stiffness_high"
+                android:checkable="true"
+                android:title="@string/stiffness_high" />
+            <item
+                android:id="@+id/stiffness_medium"
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/stiffness_medium" />
+            <item
+                android:id="@+id/stiffness_low"
+                android:checkable="true"
+                android:title="@string/stiffness_low" />
+            <item
+                android:id="@+id/stiffness_very_low"
+                android:checkable="true"
+                android:title="@string/stiffness_very_low" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_damping"
+        android:title="@string/damping"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/damping_ratio_high_bouncy"
+                android:checkable="true"
+                android:title="@string/damping_ratio_high_bouncy" />
+            <item
+                android:id="@+id/damping_ratio_medium_bouncy"
+                android:checkable="true"
+                android:checked="true"
+                android:title="@string/damping_ratio_medium_bouncy" />
+            <item
+                android:id="@+id/damping_ratio_low_bouncy"
+                android:checkable="true"
+                android:title="@string/damping_ratio_low_bouncy" />
+            <item
+                android:id="@+id/damping_ratio_no_bouncy"
+                android:checkable="true"
+                android:title="@string/damping_ratio_no_bouncy" />
+        </menu>
+    </item>
+
+</menu>
