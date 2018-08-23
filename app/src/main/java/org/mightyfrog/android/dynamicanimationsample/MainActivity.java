@@ -16,6 +16,7 @@ package org.mightyfrog.android.dynamicanimationsample;
  * limitations under the License.
  */
 
+import android.annotation.SuppressLint;
 import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.animation.SpringAnimation;
@@ -49,10 +50,11 @@ public class MainActivity extends AppCompatActivity {
 
         mVelocityTracker = VelocityTracker.obtain();
 
-        final ImageView droid = (ImageView) findViewById(R.id.droid);
+        final ImageView droid = findViewById(R.id.droid);
         findViewById(android.R.id.content).setOnTouchListener(new View.OnTouchListener() {
             private final Rect mRect = new Rect();
 
+            @SuppressLint("ClickableViewAccessibility")
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
